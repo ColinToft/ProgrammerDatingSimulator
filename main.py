@@ -73,7 +73,7 @@ class MainView (View):
 		
 def main():
 	v = MainView()
-	v.present('sheet', hide_title_bar=True, hide_close_button=True)
+	v.present('popover', hide_title_bar=True, hide_close_button=True)
 	
 if __name__ == '__main__':
 	main()
